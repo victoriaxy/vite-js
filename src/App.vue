@@ -1,8 +1,12 @@
-<script setup>
-// This starter template is using Vue 3 <script setup> SFCs
-// Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
-import HelloWorld from './components/HelloWorld.vue'
-</script>
+<!--
+ * @Author: victoriaXY 617989449@qq.com
+ * @Date: 2022-08-17 18:27:13
+ * @LastEditors: victoriaXY 617989449@qq.com
+ * @LastEditTime: 2022-08-17 19:00:36
+ * @FilePath: \epidvue\vite-js\src\App.vue
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+-->
+<script setup></script>
 
 <template>
   <div>
@@ -13,7 +17,7 @@ import HelloWorld from './components/HelloWorld.vue'
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
   </div>
-  <HelloWorld msg="Vite + Vue" />
+  <router-view></router-view>
 </template>
 
 <style scoped>
